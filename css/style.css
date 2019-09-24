@@ -15,9 +15,10 @@ body {
     flex-direction: column;
     margin: auto 50px auto 50px;
     align-items: center;
+    height: 100px;
 }
 .logo-image {
-    width: 150px;
+    width: 100px;
 }
 .aboutus-arrow-image {
     width: 80px;
