@@ -1,0 +1,60 @@
+
+.aboutus-arrow-image {
+    width: 80px;
+}
+.aboutus-arrow-container {
+    text-align: center;
+}
+
+.wine-section {
+    display: flex;
+    margin: 10px;
+}
+.petanque-section {
+    display: flex;
+    margin: 10px;
+}
+.page-image {
+    width: 100%;
+    height: 100%;
+}
+.page-image:hover {
+    opacity: 0.7;
+}
+
+.aboutus-image {
+    width: 70%;
+}
+.aboutus-image-container {
+    text-align: center;
+}
+.aboutus-information {
+    margin-left:50px;
+    margin-right: 50px;
+}
+
+@media only screen and (min-width:600px){
+    .menu-container {
+        display: flex;
+        flex-direction: row;
+    }
+    .wine-section {
+        margin: 10px 5px 10px 10px;
+    }
+    .petanque-section {
+        margin: 10px 10px 10px 5px;
+    }
+    .aboutus-arrow-image {
+        width: 150px;
+        margin-bottom: 10px;
+    }
+    .aboutus-image {
+        width: 700px;
+    }
+    .aboutus-container{
+    margin:50px 200px 50px 200px;
+    }
+    .aboutus-information {
+        font-size: 32px;
+    }
+}

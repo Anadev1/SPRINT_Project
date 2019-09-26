@@ -11,21 +11,16 @@ body {
 }
 .header-container {
     display: flex;
-    justify-content: space-between;
-    flex-direction: column;
+    justify-content: space-around;
+    flex-direction: row;
     margin: auto 50px auto 50px;
     align-items: center;
     height: 100px;
 }
 .logo-image {
-    width: 100px;
+    width: 70px;
 }
-.aboutus-arrow-image {
-    width: 80px;
-}
-.aboutus-arrow-container {
-    text-align: center;
-}
+
 .logo-container {
     text-align: center;
     padding-top: 10px;
@@ -33,38 +28,18 @@ body {
 .navigation-container {
     display: flex;
     justify-content: space-between;
+    align-content: center;
 }
 .navigation-element {
     padding: 10px;
-    font-size: 24px;
+    font-size: 20px;
     color: black;
 }
-.wine-section {
-    display: flex;
-    margin: 10px;
-}
-.petanque-section {
-    display: flex;
-    margin: 10px;
-}
-.page-image {
-    width: 100%;
-}
-.page-image:hover {
+.navigation-element:hover {
     opacity: 0.7;
 }
 .link {
     text-decoration: none;
-}
-.aboutus-image {
-    width: 70%;
-}
-.aboutus-image-container {
-    text-align: center;
-}
-.aboutus-information {
-    margin-left:50px;
-    margin-right: 50px;
 }
 #button {
     background-color: #d4bae8;
@@ -75,31 +50,11 @@ body {
         justify-content: space-between;
         flex-direction: row;
     }
-    .menu-container {
-        display: flex;
-        flex-direction: row;
-    }
-    .wine-section {
-        margin: 10px 5px 10px 10px;
-    }
-    .petanque-section {
-        margin: 10px 10px 10px 5px;
-    }
     .navigation-element {
         padding: 20px;
         font-size: 34px;
     }
-    .aboutus-arrow-image {
-        width: 150px;
-        margin-bottom: 10px;
-    }
-    .aboutus-image {
-        width: 700px;
-    }
-    .aboutus-container{
-    margin:50px 200px 50px 200px;
-    }
-    .aboutus-information {
-        font-size: 32px;
+    .logo-image {
+        width: 100px;
     }
 }

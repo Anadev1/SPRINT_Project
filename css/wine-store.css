@@ -1,0 +1,71 @@
+main {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 20px 50px 20px 50px;
+}
+    body {
+        align-content: center;
+}
+.searchbar {
+    padding: 2px;
+    border: solid;
+    border-width: 2px;
+    margin-top: 8px;
+    font-size: 18px;
+    width: 20%;
+    margin: 10px auto 10px auto;
+}
+.searchbar-container {
+    display: flex;
+    flex-wrap: wrap;
+}
+.some-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.sidebar-container {
+    background-color: aquamarine;
+    text-align: center;
+}
+.wineresults-container {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    background-color: blueviolet;
+}
+.winebottle-image {
+    width: 300px;
+}
+.column {
+    display: flex;
+    flex-direction: column;
+}
+@media only screen and (min-width:600px){
+
+        .wineresults-container {
+        flex-direction: row;
+        justify-content: space-between;
+        width: 100%;
+    }
+        .column {
+        flex-direction: column;
+        padding-right: 400px;
+    }
+        .some-container {
+        flex-direction: row;
+        justify-content: space-around;
+    }
+        .searchbar-container {
+        flex-direction: column;
+    }
+        .sidebar-container {
+        width: 20%;
+    }
+        main {
+        justify-content: space-around;
+    }
+
+}
