@@ -49,6 +49,10 @@ body {
     font-size: 22px;
     margin-right: 50px;
     margin-bottom: 10px;
+    border:2px;
+    border-style:solid;
+    border-color:#bd9ac1;
+    border-radius: 8px;
 }
 
 .event_image {
