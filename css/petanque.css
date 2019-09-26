@@ -4,3 +4,7 @@ body {
 img {
     width: 100vh;
 }
+@media only screen and (min-width:600px)
+.feedback-button {
+    width: 45px;
+}

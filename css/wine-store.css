@@ -4,31 +4,33 @@ main {
     justify-content: center;
     margin: 20px 50px 20px 50px;
     height: 100%;
+    width: 100%;
 }
 
 body {
     align-content: center;
+    width: 100%;
 }
 .searchbar {
     padding: 2px;
-    border: solid;
-    border-width: 2px;
     margin-top: 8px;
-    font-size: 18px;
     width: 20%;
     margin: 10px auto 10px auto;
+
 }
 
 .searchbar-container {
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
+    background-color: #d4bae8;
 }
 
 .some-container {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
+    background-color: #d4bae8;
 }
 
 .sidebar-container {
@@ -41,7 +43,7 @@ body {
 }
 
 .winebottle-image {
-    width: 300px;
+    width: 200px;
     margin-right: 20px;
 }
 
@@ -61,7 +63,44 @@ body {
     flex-direction: column;
     margin-top: 20px;
 }
-
+.category-button {
+    color: #d4bae8;
+    font-size: 28px;
+}
+.top-button {
+    font-size: 32px;
+}
+.top-button:hover {
+    opacity: 0.7;
+}
+.wine-type {
+    color: black;
+    font-size: 20px;
+}
+.wine-type:hover {
+    opacity: 0.7;
+}
+.wine-year {
+    color: black;
+    font-size: 20px;
+}
+.wine-year:hover {
+    opacity: 0.7;
+}
+.wine-country {
+    color: black;
+    font-size: 20px;
+}
+.wine-country:hover {
+    opacity: 0.7;
+}
+.view-more {
+    color: black;
+    font-size: 20px;
+}
+.view-more:hover {
+    opacity: 0.7;
+}
 @media only screen and (min-width:600px) {
 
     .wineresults-container {
@@ -86,5 +125,7 @@ body {
         justify-content: space-around;
         margin-bottom: 11%;
     }
-
+    .winebottle-image {
+        width: 400px;
+    }
 }

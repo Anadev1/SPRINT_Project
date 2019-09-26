@@ -49,7 +49,6 @@ body {
     font-size: 22px;
     margin-right: 50px;
     margin-bottom: 10px;
-
 }
 
 .event_image {
@@ -66,7 +65,6 @@ body {
     width: 30px;
     float: left;
     margin-right: 30px;
-
 }
 
 .contact_headline {
@@ -74,7 +72,6 @@ body {
     margin-bottom: 30px;
     font-size: 20px;
     color: black;
-
 }
 
 .some_image {
@@ -83,20 +80,9 @@ body {
     margin-top: 0;
 }
 
-.contactus_section {
-    width: 220px;
-    height: 70px;
-    font-size: 20px;
-}
-
 .page_headline {
     font-family: Arial, Helvetica, sans-serif;
     margin-bottom: 20px;
     margin-left: 15px;
     margin-top: 35px;
 }
-
-@media only screen and (min-width: 470px) {
-    .footer_container {
-        flex-direction: row;
-    }
